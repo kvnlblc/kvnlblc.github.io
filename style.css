@@ -365,7 +365,7 @@ h2{
     box-shadow:0 0 20px rgb(159, 59, 253);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
 
     nav {
       flex-direction: column;
