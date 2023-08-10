@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     background: linear-gradient(135deg, #0e0b16, #5c136e);
     overflow-x: hidden;
-    font-family: 'Borel', cursive;
+    font-family: 'arial';
 }
 
 section {
@@ -38,7 +38,7 @@ section {
 
 nav {
     width: 100%;
-    font-family: 'Borel', cursive;
+    font-family: 'arial';
     display: flex;
     flex-direction: row;
     justify-content: space-between;
