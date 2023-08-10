@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #0e0b16, #5c136e);
+    overflow-x: hidden;
+    font-family: 'Borel', cursive;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 100%;
+    max-width: 1440px;
+    padding-bottom: 50px;
+    
+}
+
+.cv{
+    text-decoration: none;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF950A;
+}
+.cv:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+nav {
+    width: 100%;
+    font-family: 'Borel', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.nom {
+    color: #FEF3E5;
+}
+
+a{
+    text-decoration: none;
+    color: #FEF3E5;
+    transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+p{
+    color: #FEF3E5;
+}
+
+
+.perso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.maphoto {
+    width: 30vh;
+    height: 30vh;
+    margin-right: 200px;
+    border-radius: 100%;
+    border: 3px solid white;
+    background-image: url(images/liblanckevin.jpg);
+    background-size: cover;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253); 
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253); 
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.maphoto:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #FEF3E5;
+    background-color: rgb(88, 88, 88);
+    width: 80vh;
+    height: 50vh;
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253); 
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253); 
+    box-shadow:0 0 20px rgb(159, 59, 253);
+}
+
+h2{
+    color: #FEF3E5;
+    -webkit-text-shadow:0 0 20px rgb(159, 59, 253); 
+    -moz-text-shadow: 0 0 20px rgb(159, 59, 253); 
+    text-shadow:0 0 20px rgb(159, 59, 253);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-html, .box-css, .box-js, .box-php{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.box-html:hover, .box-css:hover, .box-js:hover, .box-php:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.box-projets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.massif{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    background-image: url("images/massif.png");
+    background-size: cover;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    position: relative;
+}
+
+.massif .massif-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    background-color: rgb(88, 88, 88);
+    padding: .5em;
+    min-width: 10rem;
+  }
+  .massif:hover .massif-content {
+    display: block;
+  }
+
+.legendary{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    background-image: url("images/legendary.png");
+    background-size: cover;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    position: relative;
+}
+
+.legendary .legendary-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    background-color: rgb(88, 88, 88);
+    padding: .5em;
+    min-width: 10rem;
+  }
+  .legendary:hover .legendary-content {
+    display: block;
+  }
+
+.quizz{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    background-image: url("images/quizz.png");
+    background-size: cover;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    position: relative;
+}
+
+.quizz .quizz-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    background-color: rgb(88, 88, 88);
+    padding: .5em;
+    min-width: 10rem;
+  }
+  .quizz:hover .quizz-content {
+    display: block;
+  }
+
+.morpion{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    background-image: url("images/morpion.png");
+    background-size: cover;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    position: relative;
+}
+
+  .morpion .morpion-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    background-color: rgb(88, 88, 88);
+    padding: .5em;
+    min-width: 10rem;
+  }
+  .morpion:hover .morpion-content {
+    display: block;
+  }
+
+  .progress-bar {
+    box-sizing: content-box;
+    height: 20px; /* Can be anything */
+    position: relative;
+    margin: 60px 0 20px 0; /* Just for demo spacing */
+    background: #555;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  }
+  .progress-bar > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43, 194, 83) 37%,
+      rgb(84, 240, 84) 69%
+    );
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  .progress-bar > span:after,
+  .animate > span > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: move 2s linear infinite;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .animate > span:after {
+    display: none;
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+
+  footer{
+    color: #FEF3E5;
+    -webkit-text-shadow:0 0 20px rgb(159, 59, 253); 
+    -moz-text-shadow: 0 0 20px rgb(159, 59, 253); 
+    text-shadow:0 0 20px rgb(159, 59, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 5vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: 15px;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+  }
