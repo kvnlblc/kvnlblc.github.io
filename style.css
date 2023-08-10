@@ -364,3 +364,23 @@ h2{
     -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
     box-shadow:0 0 20px rgb(159, 59, 253);
   }
+
+  @media screen and (max-width: 800px) {
+    .progress-bar > span {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .progress-bar > span {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+
