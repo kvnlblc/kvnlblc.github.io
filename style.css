@@ -366,6 +366,10 @@ h2{
   }
 
   @media (max-width: 768px) {
+    body{
+      font-family: 'Borel', cursive;
+    }
+
     nav {
       flex-direction: column;
       align-items: center;
@@ -381,11 +385,20 @@ h2{
       margin-right: 0;
       margin-bottom: 20px;
     }
+    
+    .mon_parcours{
+      padding-left: 90px;
+    }
+
+    .projets_dispo{
+      padding-left: 60px;
+    }
   
     .description {
       width: auto;
       height: auto;
       padding: 20px;
+      margin: 5px;
     }
   
     .box {
@@ -407,7 +420,10 @@ h2{
     }
 
     .massif, .legendary, .quizz, .morpion {
-      margin-bottom: 20px;  
+      margin-bottom: 20px; 
+      width: 50vw;
+      height: 50vw; 
+
     }
 
     footer{
