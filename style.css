@@ -432,6 +432,56 @@ h2{
       height: auto;
     }
   }
+
+  .request_message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 10vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: 15px;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: 15px;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+  }
+
+  input, textarea {
+    border-radius: 15px;
+    border: 3px solid white;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1em;
+    text-align: center;
+
+  }
+
+  iconify-icon{
+    color: white;
+  }
   
   @media (max-width: 480px) {
     section {
